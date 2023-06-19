@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  .student-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .student-block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .student-block .delete-btn {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    border: 3px solid black;
+  }
+  
